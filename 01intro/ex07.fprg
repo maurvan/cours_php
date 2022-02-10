@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-05 03:50:49 pm"/>
+        <attribute name="created" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDU7MTE6NDA6NDIgYW07MjkwMw=="/>
+        <attribute name="edited" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDU7MDM6NTA6NDkgcG07MzszMDM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="secondes, jour, heure, minute, seconde" type="Integer" array="False" size=""/>
+            <output expression="&quot;Entrez le nombre de secondes:&quot;" newline="True"/>
+            <input variable="secondes"/>
+            <assign variable="jour" expression="secondes / 86400"/>
+            <assign variable="heure" expression="(secondes % 86400) / 3600"/>
+            <assign variable="minute" expression="(secondes % 311040000) / 60"/>
+            <assign variable="seconde" expression="(secondes % 1866240000) / 60"/>
+            <output expression="jour &amp; &quot;jours&quot; &amp; heure &amp; &quot;heures&quot; &amp; minute &amp; &quot;minutes&quot; &amp; seconde &amp; &quot;secondes&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

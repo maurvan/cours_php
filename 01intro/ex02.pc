@@ -1,0 +1,6 @@
+Algorithme Ex02
+DEBUT
+    Variable message : Chaine
+    message <- "Bienvenue"
+    Ecrire(message)
+FIN

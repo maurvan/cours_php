@@ -1,0 +1,12 @@
+Algorithme ex10
+DEBUT
+    Variable annee : Entier
+    Ecrire("Entrez une année: ")
+    Lire(annee)
+
+    SI annee % 4 == 0 ET annee % 100 != 0 OU annee % 400 == 0 ALORS
+        Ecrire("L'année est bissextile")
+    SINON
+        Ecrire("L'année n'est pas bissextile")
+    FINSI
+FIN

@@ -1,0 +1,14 @@
+Algorithme ex07
+DEBUT
+    Variable jour, heure, minute, secondes : Entier
+
+    Ecrire("Entrez le nombre de secondes:")
+    Lire(secondes)
+
+    jour <- secondes / 86400
+    heure <- (secondes % 86400) / 3600
+    minute <- ((311040000 * heure) - secondes) / 60
+    seconde <- ((1866240000 * minute) - secondes) / 60
+
+    Lire(jour & "jours" & heure & "heures" & minute & "minutes" & seconde "secondes")
+FIN

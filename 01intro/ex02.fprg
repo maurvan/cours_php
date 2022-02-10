@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-03 02:00:45 pm"/>
+        <attribute name="created" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDM7MTA6NTQ6MTQgYW07MjkwNA=="/>
+        <attribute name="edited" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDM7MDI6MDA6NDUgcG07MTszMDIz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="D&#233;claration (R&#233;server l'espace m&#233;moire dans la RAM)"/>
+            <declare name="message" type="String" array="False" size=""/>
+            <comment text="Affecter la variable"/>
+            <assign variable="message" expression="&quot;Bienvenue&quot;"/>
+            <output expression="message" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

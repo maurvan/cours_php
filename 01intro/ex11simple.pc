@@ -1,0 +1,24 @@
+Algorithme ex11
+DEBUT
+    Variable pret, panierVide : Booleen
+
+    Ecrire("Etes vous prêt?")
+    Lire(pret)
+    Ecrire("Le panier est-il vide?")
+    Lire(panierVide)
+    
+    SI pret ET !panierVide ALORS
+        Ecrire("Lancer la balle")
+    SINON
+        Ecrire("Ne pas lancer la balle")
+        SI !pret ALORS
+            Ecrire("Car vous n'etes pas prêt")
+        FINSI
+        SI panierVide ALORS
+            Ecrire("Car le panier est vide")
+        FINSI
+    FINSI
+FIN
+
+// nomVariable == true => nomVariable
+// nomVariable == false => !nomVariable

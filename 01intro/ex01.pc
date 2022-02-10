@@ -1,0 +1,69 @@
+Algorithme Exo01
+DEBUT
+    // Déclarer et initialiser 5 variables de type Entier
+    Variable age : Entier
+    age <- 30
+
+    Variable numeroMaison : Entier
+    numeroMaison <- 23
+
+    Variable codePostal : Entier
+    codePostal <- 1030
+
+    Variable nombreColocs : Entier
+    nombreColocs <- 2
+
+    Variable anneeNaissance : Entier
+    anneeNaissance <- 1991
+
+    // Déclarer et initialiser 5 variables de type Reel
+
+    Variable poids : Reel
+    poids <- 75.2
+
+    Variable taille : Reel
+    taille <- 163.3
+
+    Variable poidsReve : Reel
+    poidsReve <- 58.5
+
+    Variable tailleFrere : Reel
+    taille <- 189.7
+
+    Variable temperature : Reel
+    temperature <- 17.8
+
+    // Déclarer et initialiser 5 variables de type Chaine
+
+    Variable prenom : Chaine
+    prenom <- "Maureen"
+
+    Variable nom : Chaine
+    nom <- "Vanhoren"
+
+    Variable signeAstrologique : Chaine
+    signeAstrologique <- "bélier"
+
+    Variable ville : Chaine
+    ville <- "Bruxelles"
+
+    Variable rue : Chaine
+    rue <- "rue Fontaine d'Amour"
+
+    // Déclarer et initialiser 5 variables de type Booleen
+
+    Variable aFrere : Booleen
+    aFrere <- true
+
+    Variable aSoeur : Booleen
+    aSoeur <- false
+
+    Variable animalCompagnie : Booleen
+    animalCompagnie <- false
+
+    Variable estHeureuse : Booleen
+    estHeureuse <- true
+
+    Variable estMotivee : Booleen
+    estMotivee <- true
+FIN

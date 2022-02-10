@@ -1,0 +1,10 @@
+Algorithme ex06
+DEBUT
+    Variable a, b : Entier
+    a <- 5
+    b <- 8
+
+    a <- a + b
+    b <- a - b
+    a <- a - b
+FIN

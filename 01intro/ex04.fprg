@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-03 04:47:06 pm"/>
+        <attribute name="created" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDM7MDQ6Mzg6MjQgcG07MjkyNQ=="/>
+        <attribute name="edited" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDM7MDQ6NDc6MDYgcG07MTszMDMz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nom, prenom" type="String" array="False" size=""/>
+            <output expression="&quot;Entrez votre nom :&quot;" newline="True"/>
+            <input variable="nom"/>
+            <output expression="&quot;Entrez votre pr&#233;nom :&quot;" newline="True"/>
+            <input variable="prenom"/>
+            <output expression="&quot;Bienvenue &quot; &amp; prenom &amp; &quot; &quot; &amp; nom" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

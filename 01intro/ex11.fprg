@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-06 11:09:51 am"/>
+        <attribute name="created" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDU7MDQ6Mjg6MDUgcG07MjkyNQ=="/>
+        <attribute name="edited" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDY7MTE6MDk6NTEgYW07NDszMDIw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="pret, panierVide" type="Boolean" array="False" size=""/>
+            <output expression="&quot;Etes-vous pr&#234;t?&quot;" newline="True"/>
+            <input variable="pret"/>
+            <output expression="&quot;Le panier est-il vide?&quot;" newline="True"/>
+            <input variable="panierVide"/>
+            <if expression="pret == true &amp;&amp; panierVide == false">
+                <then>
+                    <output expression="&quot;Lancer la balle&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Ne pas lancer la balle&quot;" newline="True"/>
+                    <if expression="pret == false">
+                        <then>
+                            <output expression="&quot;Car vous n'etes pas pr&#234;t&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                    <if expression="panierVide == true">
+                        <then>
+                            <output expression="&quot;Car le panier est vide&quot;" newline="True"/>
+                        </then>
+                        <else/>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

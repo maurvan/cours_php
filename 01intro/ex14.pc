@@ -1,0 +1,16 @@
+Algorithme ex14
+DEBUT
+    Variable note : Entier
+
+    Ecrire("Entrez la note de l'étudiant")
+    Lire(note)
+
+    SELONQUE note <= 20 OU note >= 0 VAUT
+        0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 : Ecrire("I")
+        11, 12 : Ecrire("S")
+        13, 14, 15 : Ecrire("B")
+        16, 17, 18 : Ecrire("TB")
+        19, 20 : Ecrire("Excellent")
+        SINON : Ecrire("Note non valide")
+    FINSQ
+FIN

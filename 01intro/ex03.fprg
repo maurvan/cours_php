@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-03 04:38:18 pm"/>
+        <attribute name="created" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDM7MDI6MTM6MzYgcG07MjkxOQ=="/>
+        <attribute name="edited" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDM7MDQ6Mzg6MTggcG07MjszMDM3"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nb1, nb2, nb3" type="String" array="False" size=""/>
+            <assign variable="nb1" expression="&quot;5&quot;"/>
+            <assign variable="nb2" expression="&quot;7&quot;"/>
+            <output expression="&quot;Avant: nb1 = &quot; &amp; nb1 &amp; &quot; et nb2 = &quot; &amp; nb2" newline="True"/>
+            <assign variable="nb3" expression="nb2"/>
+            <assign variable="nb2" expression="nb1"/>
+            <assign variable="nb1" expression="nb3"/>
+            <output expression="&quot;Apr&#232;s: nb1 = &quot; &amp; nb1 &amp; &quot; et nb2 = &quot; &amp;nb2" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

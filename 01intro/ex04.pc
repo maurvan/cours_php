@@ -1,0 +1,12 @@
+Algorithme ex04
+DEBUT
+    Variable nom, prenom : Chaine
+    
+    Ecrire("Entrez votre nom :")
+    Lire(nom)
+
+    Ecrire("Entrez votre prénom :")
+    Lire(prenom)
+
+    Ecrire("Bienvenue " & prenom & " " & nom)
+FIN

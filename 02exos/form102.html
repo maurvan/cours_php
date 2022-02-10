@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex1.02</title>
+</head>
+<body>
+    <h1>Formulaire de contact</h1>
+
+    <form action="ex102.php" method="POST">
+        <fieldset>
+            <legend>Vos coordonnées</legend>
+            <!-- texte à afficher -->
+            <label for="nom">Nom:</label>
+            <!-- champ de type -->
+            <input type="text" id="nom" name="nom"><br>
+            <!-- texte à afficher -->
+            <label for="prenom">Prénom:</label>
+            <!-- champ de type -->
+            <input type="text" id="prenom" name="prenom"><br>
+            <!-- boutton pour envoyer le formulaire -->
+            <input type="submit" value="Envoyer">
+            <!-- boutton pour vider le formulaire -->
+            <input type="reset" value="Vider le formulaire">
+        </fieldset>
+    </form>
+</body>
+</html>

@@ -1,0 +1,23 @@
+Algorithme ex12
+DEBUT
+    Variable stockEau, stockCoca, choix : Entier
+    stockCoca <- 0
+    stockEau <- 2
+
+    Ecrire("Choisissez votre boison: 1 = coca, 2 = eau")
+    Lire(choix)
+
+    SELONQUE choix VAUT
+        1 : SI stockCoca == 0 ALORS
+                Ecrire("Il n'y a plus de Coca")
+            SINON
+                Ecrire("Voici votre coca")
+            FINSI
+        2 : SI stockEau == 0 ALORS
+                Ecrire("Il n'y a plus d'eau")
+            SINON
+                Ecrire("Voici votre eau")
+            FINSI
+        SINON : Ecrire("Choix inconnu")
+    FINSQ
+FIN

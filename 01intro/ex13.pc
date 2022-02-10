@@ -1,0 +1,24 @@
+Algorithme ex13
+DEBUT
+    Variable nombre1, nombre2 : Entier
+    Variable operateur : Chaine
+
+    Ecrire("Entrez le nombre1")
+    Lire(nombre1)
+    Ecrire("Entrez l'opérateur")
+    Lire(operateur)
+    Ecrire("Entrez le nombre2")
+    Lire(nombre2)
+    
+    SELONQUE operateur VAUT
+        "+" : Ecrire(nombre1 "+" nombre2 "=" nombre1 + nombre2)
+        "-" : Ecrire(nombre1 "-" nombre2 "=" nombre1 - nombre2)
+        "*" : Ecrire(nombre1 "*" nombre2 "=" nombre1 * nombre2)
+        "/" : SI nombre2 == 0 ALORS
+                  Ecrire("Division par 0")
+              SINON
+                  Ecrire(nombre1 "/" nombre2 "=" nombre1 / nombre2)
+              FINSI
+        SINON : Ecrire("Opérateur inconnu")
+    FINSQ
+FIN

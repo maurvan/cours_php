@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="maure"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-05-05 11:33:33 am"/>
+        <attribute name="created" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDU7MTE6Mjg6MTYgYW07MjkxMA=="/>
+        <attribute name="edited" value="bWF1cmU7TEFQVE9QLUcxNElVRURFOzIwMjEtMDUtMDU7MTE6MzM6MzMgYW07MTszMDEz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="a, b" type="Integer" array="False" size=""/>
+            <assign variable="a" expression="5"/>
+            <assign variable="b" expression="8"/>
+            <output expression="&quot;Nombre1= &quot; &amp; a &amp; &quot;Nombre2 =&quot; &amp; b" newline="True"/>
+            <assign variable="a" expression="a + b"/>
+            <assign variable="b" expression="a - b"/>
+            <assign variable="a" expression="a - b"/>
+            <output expression="&quot;Nombre1= &quot; &amp; a &amp; &quot;Nombre2= &quot; &amp; b" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

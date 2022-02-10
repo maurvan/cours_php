@@ -1,0 +1,12 @@
+Algorithme ex03
+DEBUT
+    Variable nb1, nb2, nb3 : Chaine
+    nb1 <- 5
+    nb2 <- 7
+    Ecrire("Avant: nb1 = " & nb1 & " et nb2 = " & nb2)
+
+    nb3 <- nb2
+    nb2 <- nb1
+    nb1 <- nb3
+    Ecrire("Après: nb1 = " & nb1 & "et nb2 = " & nb2)
+FIN
